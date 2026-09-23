@@ -77,6 +77,68 @@
             //    Console.WriteLine($"{player.Key} = {player.Value}");
             //}
             #endregion
+
+            #region Exercise 3: Phone Book
+
+            //// 1- Create a Collection with 4 contacts
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            //phoneBook.Add("Ahmed", "01011111111");
+            //phoneBook.Add("Sara", "01022222222");
+            //phoneBook.Add("Ali", "01033333333");
+            //phoneBook.Add("Mona", "01044444444");
+
+
+            //// 2- Add a new contact using [] syntax (add or update)
+            //phoneBook["Omar"] = "01055555555";
+
+
+            //// 3- Try adding a duplicate using .Add()
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "01111111111");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
+
+
+            //// 4- Try adding a duplicate using .TryAdd()
+            //bool added = phoneBook.TryAdd("Ahmed", "01111111111");
+
+            //Console.WriteLine($"TryAdd succeeded: {added}");
+
+
+            //// 5- Search for a contact that doesn't exist
+            //if (phoneBook.ContainsKey("Youssef"))
+            //{
+            //    Console.WriteLine(phoneBook["Youssef"]);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" not found");
+            //}
+
+
+            //// 6- Get a contact with a fallback of "Not Found"
+            //string phone = phoneBook.GetValueOrDefault("Youssef", "Not Found");
+
+            //Console.WriteLine(phone);
+
+
+            //// 7- Print all Keys on one line, then all Values on another line
+            //Console.WriteLine("Keys:");
+
+            //Console.WriteLine(string.Join(", ", phoneBook.Keys));
+
+            //Console.WriteLine("Values:");
+
+            //Console.WriteLine(string.Join(", ", phoneBook.Values));
+
+            #endregion
+
+
         }
     }
 }
