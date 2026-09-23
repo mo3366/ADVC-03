@@ -138,6 +138,70 @@
 
             #endregion
 
+       
+            #region Exercise 4: Unique Email Validator
+
+            //// 1- Create a HashSet with a case-insensitive comparer
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            //// 2- Add emails
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+            //// 3- Print Count
+            //Console.WriteLine("3- number of emails stored: ");
+            //Console.WriteLine(emails.Count);
+
+
+            //// 4- Create Set A and Set B
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+
+            //// 5- UnionWith
+            //HashSet<int> union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+
+            //Console.WriteLine("Union:");
+            //foreach (int number in union)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+
+            //// IntersectWith
+            //HashSet<int> intersection = new HashSet<int>(setA);
+            //intersection.IntersectWith(setB);
+
+            //Console.WriteLine("Intersection:");
+            //foreach (int number in intersection)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+
+            //// ExceptWith
+            //HashSet<int> except = new HashSet<int>(setA);
+            //except.ExceptWith(setB);
+
+            //Console.WriteLine("Except:");
+            //foreach (int number in except)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+
+            //// 6- IsSubsetOf
+            //HashSet<int> subset = new HashSet<int> { 1, 2 };
+
+            //Console.WriteLine("Is {1,2} a subset of Set A?");
+            //Console.WriteLine(subset.IsSubsetOf(setA));
+
+            #endregion
+
+
 
         }
     }
